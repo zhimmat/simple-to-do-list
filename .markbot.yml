@@ -1,0 +1,45 @@
+repo: "simple-to-do-list"
+canvasCourse: "467503"
+canvasAssignment: "4202569"
+
+naming: true
+commits: 2
+
+html:
+  - path: "index.html"
+    valid: true
+    bestPractices: true
+    has:
+      - "script"
+      - "form"
+      - "form label[for]"
+      - "form input"
+      - 'form button[type="submit"]'
+      - 'ul'
+    search:
+      - "jquery"
+
+css:
+  - path: "css/main.css"
+    valid: true
+    bestPractices: true
+    has:
+      - ['html', 'box-sizing', 'border-box']
+    search:
+      - "line-through"
+
+js:
+  - path: "js/main.js"
+    valid: true
+    bestPractices: true
+    search:
+      - "\\.on\\('submit', function"
+      - "\\.on\\('click', 'li', function"
+      - "\\.toggleClass\\("
+      - "\\.preventDefault\\(\\)"
+      - "\\$\\('form'\\)"
+      - "\\$\\('<li>'\\)"
+      - "\\.html\\("
+      - "\\.append\\("
+      - "\\.val\\("
+      - "\\.val\\(''\\)"
